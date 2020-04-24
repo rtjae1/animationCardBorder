@@ -9,7 +9,7 @@
 html {
   box-sizing: border-box;
   font-family: monospace;
-  background-color: var(--primaryColor);
+  /* background-color: var(--primaryColor); */
   color: var(--secondaryColor);
 }
 
@@ -26,8 +26,8 @@ html {
   display: grid;
   position: relative;
   grid-gap: 0;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 40px auto 40px;
+  /* grid-template-columns: repeat(12, 1fr); */
+  /* grid-template-rows: 40px auto 40px; */
   grid-template-areas:
     "m m m m m m m m m m m m"
     "c c c c c c c c c c c c"
@@ -114,6 +114,7 @@ html {
 }
 
 .links img {
+  bottom: 0;
   height: 40px;
   cursor: pointer;
 }
